@@ -1,0 +1,117 @@
+.cartoes {
+    position: relative;
+    height: 60vh;
+    margin: 0;
+    padding: 0;
+}
+
+.section-cartoes {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.section-cartoes h2 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem 0 0.5rem 0;
+}
+
+#tabela {
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    align-items: center;
+    border-collapse: collapse;
+}
+
+#tabela th {
+    align-items: center;
+    padding: 1vh 2vh;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid black;
+}
+
+#tabela td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid black;
+}
+
+#tabela #c_codigo,
+#tabela #c_validade,
+#tabela #c_limite,
+#tabela #c_melhor_dia,
+#tabela #c_ativoinativo,
+#tabela #c_editar,
+#tabela #c_a-inativar {
+    text-align: center;
+}
+
+#tabela #c_titular,
+#tabela #c_descricao,
+#tabela #c_banco {
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 1rem;
+}
+
+#tabela #c_editar,
+#tabela #c_a-inativar {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid black;
+}
+
+/* Botões */
+#tabela #c_editar button,
+#tabela #c_a-inativar button {
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14px;
+    text-transform:uppercase;
+}
+
+#tabela #c_editar button {
+    width: 70px;
+}
+
+#tabela #c_a-inativar button {
+    width: 80px;
+}
+
+#tabela #c_a-inativar button {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#tabela #c_a-inativar button:hover {
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+#tabela #c_editar button {
+    background-color: rgba(0, 128, 0, 0.5);
+}
+
+#tabela #c_editar button:hover {
+    background-color: rgba(0, 128, 0, 0.7);
+}
+
+#tabela #novo button {
+    background-color: rgba(0, 0, 255, 0.5);
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 184px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14px;
+    text-transform:uppercase;
+}
+
+#tabela #novo button:hover {
+    background-color: rgba(0, 0, 255, 0.7);
+}

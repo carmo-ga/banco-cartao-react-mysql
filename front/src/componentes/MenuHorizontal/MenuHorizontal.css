@@ -1,0 +1,31 @@
+.menuHorizontal {
+    display: flex;
+    position:relative;
+    position: top;
+    width: 100vw;
+    height: 6vh;
+    margin: 0;
+    padding: 0;
+}
+
+.navMenu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.navMenu ul li {
+    display: inline-flex;
+}
+
+.navMenu ul li a {
+    display: inline-block;
+    padding: 1vh 4vw;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.navMenu ul li a:hover {
+    font-weight: 500;
+}

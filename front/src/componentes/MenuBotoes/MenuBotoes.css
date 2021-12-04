@@ -1,0 +1,18 @@
+.menuBotoes {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid black;
+    height: 7vh;
+}
+
+.botao-bancos, .botao-cartoes {
+    background-color: pink;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    height: 5vh;
+    width: 10vw;
+    margin: auto;
+}

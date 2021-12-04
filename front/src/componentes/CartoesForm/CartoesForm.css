@@ -1,0 +1,127 @@
+.cartoes-form {
+    background-color: white;
+    position: relative;
+    height: 70vh !important;
+    width: 80%;
+    align-content: center;
+    margin-top: 1.5rem !important;
+    padding: 0;
+    border-radius: 6px;
+}
+
+.form-crt {
+    display: block;
+}
+
+.form-crt h2 {
+    background-color: rgba(128, 0, 128, 0.1);
+    text-align: center;
+    padding: 1rem 0;
+    letter-spacing: 1px;
+}
+
+/* Divs */
+.container-div-crt {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.form-row {
+    display: inline-flex;
+    justify-content: space-evenly !important;
+    width: 100%;
+    height: 4rem;
+}
+
+.codigo-div-crt,
+.ativoinativo-div-crt,
+.titular-div-crt,
+.descricao-div-crt,
+.validade-div-crt,
+.limite-div-crt,
+.melhordia-div-crt,
+.banco-apelido-div-crt {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    height: 3rem;
+}
+
+.botoes-div-crt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    gap: 2rem;
+}
+
+/* Labels */
+.codigo-div-crt label,
+.ativoinativo-div-crt label,
+.titular-div-crt label,
+.descricao-div-crt label,
+.validade-div-crt label,
+.limite-div-crt label,
+.melhordia-div-crt label,
+.banco-apelido-div-crt label {
+    text-align: right;
+    width: 8rem;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+/* Inputs */
+#crt_codigo,
+#crt_ativoinativo,
+#crt_titular,
+#crt_descricao,
+#crt_validade,
+#crt_limite,
+#crt_melhordia,
+#ban_apelido {
+    height: 22px;
+    font-size: 16px;
+    outline: none;
+    width: auto;
+    padding-left: 6px;
+}
+
+/* Botões */
+.botoes-div-crt button {
+    background-color: rgba(128, 0, 128, 0.6);
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 184px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14px;
+    text-transform:uppercase;
+}
+
+.botoes-div-crt button:hover {
+    background-color: rgba(128, 0, 128, 0.8);
+}
+
+@media screen and (max-width: 900px) {
+    .cartoes-form {
+        height: 90vh !important;
+        margin: 2rem;
+    }
+    .form-row {
+        display: inline-block;
+        height: 6rem;
+    }
+    /* Inputs */
+    #crt_codigo,
+    #crt_ativoinativo,
+    #crt_titular,
+    #crt_descricao,
+    #crt_validade,
+    #crt_limite,
+    #crt_melhordia,
+    #ban_apelido {
+        height: 22px;
+    }
+}

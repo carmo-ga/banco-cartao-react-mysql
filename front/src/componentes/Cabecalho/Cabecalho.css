@@ -1,0 +1,14 @@
+.cabecalho {
+    margin-top: 2vh;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+
+.cabecalho h2 {
+    margin: 0 0 2vh 0;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 1.8rem;
+}

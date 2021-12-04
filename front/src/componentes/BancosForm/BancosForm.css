@@ -1,0 +1,89 @@
+.bancos-form {
+    background-color: white;
+    position: relative;
+    height: 66vh !important;
+    width: 80%;
+    align-content: center;
+    margin-top: 1.5rem !important;
+    padding: 0;
+    border-radius: 6px;
+}
+
+.form-ban {
+    display: block;
+}
+
+.form-ban h2 {
+    background-color: rgba(255, 68, 0, 0.1);
+    text-align: center;
+    padding: 1rem 0;
+    letter-spacing: 1px;
+}
+
+/* Divs */
+.container-div-ban {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.codigo-div-ban,
+.ativoinativo-div-ban,
+.descricao-div-ban,
+.apelido-div-ban,
+.numero-div-ban {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    height: 3rem;
+}
+
+.botoes-div-ban {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    gap: 2rem;
+}
+
+/* Labels */
+.codigo-div-ban label,
+.ativoinativo-div-ban label,
+.descricao-div-ban label,
+.apelido-div-ban label,
+.numero-div-ban label {
+    text-align: right;
+    width: 5rem;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+/* Inputs */
+#ban_codigo,
+#ban_ativoinativo,
+#ban_descricao,
+#ban_apelido,
+#ban_numero {
+    height: 22px;
+    font-size: 16px;
+    outline: none;
+    width: auto;
+    padding-left: 6px;
+}
+
+/* Botões */
+.botoes-div-ban button {
+    background-color: rgba(255, 68, 0, 0.7);
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 184px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14px;
+    text-transform:uppercase;
+}
+
+.botoes-div-ban button:hover {
+    background-color: rgba(255, 68, 0, 0.9);
+}
